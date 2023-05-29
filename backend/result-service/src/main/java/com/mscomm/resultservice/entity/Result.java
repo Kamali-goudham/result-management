@@ -14,7 +14,7 @@ import lombok.Setter;
 public class Result {
 
 	  @Id
-	    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//	    @GeneratedValue(strategy = GenerationType.NONE)
 	    private Long id;
 	    private Integer mark1;
 	    private Integer mark2;
@@ -22,5 +22,9 @@ public class Result {
 	    private Integer mark4;
 	    private Integer mark5;
 	    private Integer total;
+		public void setId(Long resultId) {
+			// TODO Auto-generated method stub
+			
+		}
 	    
 }

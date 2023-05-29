@@ -11,4 +11,12 @@ import lombok.Setter;
 public class ResponseDto {
 	 private ResultDto result;
 	    private StudentDto student;
+		public void setStudent(StudentDto studentDto) {
+			// TODO Auto-generated method stub
+			
+		}
+		public void setResult(ResultDto resultDto) {
+			// TODO Auto-generated method stub
+			
+		}
 }
